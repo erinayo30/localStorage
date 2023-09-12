@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    height: 100vh;
+    width: 100vh;
+    align-items: center;
+    background-color:  rgb(43, 43, 230);
+    padding: 5px;
+    margin: 5px;
+}
+.regForm{
+    width: 90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 40%;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.6;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+    color: tomato;
+}
+#input-field{
+    background-color: maroon;
+    margin: 10px 10;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: left;
+    line-height:1.5;
+}
+input{
+
+    border: none;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 5px;
+    align-items: right;
+    width: 100%;
+}
+p{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+button{
+    flex-basis: 48%;
+    border-radius: 50px;
+    justify-content: space-between;
+    font-size: 20px;
+    outline: 0;
+    height: 40px;
+    width: 50%;
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+}
+#submit{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}

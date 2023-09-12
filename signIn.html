@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign In</title>
+</head>
+<body>
+    <form class="regForm" name="regForm">  
+        <h1>Sign In</h1>
+        <p>You  are welcome please Enter your details to Sign In</p>
+        <div id="input-field">
+            <label for="Name" class=""> User Name: 
+                <input type="text" id="userName" placeholder="User Name" required></label>
+          <br>
+           <label for="password" class="">Password:
+               <input type="password" id="password" placeholder="Password">
+           </label>
+           <br>
+           <button  onsubmit="signIn(event)">Sign In</button>
+           <br>
+           <p>Don't have an Account <a href="Index.html">Sign Up Here</a></p>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
